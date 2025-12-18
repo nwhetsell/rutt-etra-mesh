@@ -21,7 +21,7 @@ Here is a typical workflow:
 
 1. Create a track (audio or MIDI) for the video that will be input to this
    device, as well as a return track; set the level from the audio/MIDI track
-   to the return track to 0 dB, and set the output types of **both** the
+   to the return track to 0 dB; and set the output types of **both** the
    audio/MIDI track and the return track to Sends Only. (Choose View > Mixer
    Controls > In/Out or press Command-Option-I if output type choosers aren’t
    visible; output type is usually Main by default.)
