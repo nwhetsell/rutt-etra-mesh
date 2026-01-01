@@ -4,12 +4,12 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 1,
+            "revision": 2,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 561.0, 171.0, 794.0, 780.0 ],
+        "rect": [ 287.0, 156.0, 794.0, 780.0 ],
         "openinpresentation": 1,
         "integercoordinates": 1,
         "boxes": [
@@ -44,9 +44,9 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 136.0, 270.0, 44.0, 15.0 ],
+                    "patching_rect": [ 136.0, 270.0, 48.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 7.0, 145.0, 44.0, 15.0 ],
+                    "presentation_rect": [ 7.0, 145.0, 48.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
@@ -101,7 +101,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 1,
+                            "revision": 2,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -183,7 +183,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 1,
+                            "revision": 2,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -280,12 +280,12 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 1,
+                            "revision": 2,
                             "architecture": "x64",
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 1096.0, 303.0, 660.0, 780.0 ],
+                        "rect": [ 1034.0, 303.0, 320.0, 780.0 ],
                         "openinpresentation": 1,
                         "boxes": [
                             {
@@ -385,7 +385,7 @@
                                     "parameter_enable": 1,
                                     "patching_rect": [ 135.0, 45.0, 35.0, 15.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 56.0, 30.0, 35.0, 15.0 ],
+                                    "presentation_rect": [ 65.0, 30.0, 35.0, 15.0 ],
                                     "saved_attribute_attributes": {
                                         "valueof": {
                                             "parameter_initial": [ 1.0 ],
@@ -399,7 +399,7 @@
                                             "parameter_unitstyle": 9
                                         }
                                     },
-                                    "textjustification": 2,
+                                    "textjustification": 0,
                                     "varname": "lineWidth"
                                 }
                             },
@@ -416,7 +416,7 @@
                                     "parameter_enable": 1,
                                     "patching_rect": [ 90.0, 45.0, 35.0, 15.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 56.0, 0.0, 35.0, 15.0 ],
+                                    "presentation_rect": [ 65.0, 0.0, 35.0, 15.0 ],
                                     "saved_attribute_attributes": {
                                         "valueof": {
                                             "parameter_initial": [ 1.0 ],
@@ -430,7 +430,7 @@
                                             "parameter_unitstyle": 9
                                         }
                                     },
-                                    "textjustification": 2,
+                                    "textjustification": 0,
                                     "varname": "pointSize"
                                 }
                             }
@@ -635,14 +635,14 @@
                         "valueof": {
                             "parameter_initial": [ 44.99999999999995 ],
                             "parameter_initial_enable": 1,
-                            "parameter_longname": "live.numbox[1]",
+                            "parameter_longname": "Lens angle",
                             "parameter_modmode": 3,
-                            "parameter_shortname": "live.numbox[1]",
+                            "parameter_shortname": "Lens angle",
                             "parameter_type": 0,
                             "parameter_unitstyle": 0
                         }
                     },
-                    "varname": "live.numbox[1]"
+                    "varname": "lensAngle"
                 }
             },
             {
@@ -670,15 +670,15 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Off", "Ortho. (lens angle)", "Ortho. (no lens angle)" ],
-                            "parameter_longname": "live.numbox",
+                            "parameter_longname": "Ortho. mode",
                             "parameter_mmax": 2,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "live.numbox",
+                            "parameter_shortname": "Ortho. mode",
                             "parameter_type": 2,
                             "parameter_unitstyle": 9
                         }
                     },
-                    "varname": "live.numbox"
+                    "varname": "orthoMode"
                 }
             },
             {
@@ -752,9 +752,9 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 1200.0, 1110.0, 53.0, 15.0 ],
+                    "patching_rect": [ 1200.0, 1110.0, 48.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 171.0, 145.0, 53.0, 15.0 ],
+                    "presentation_rect": [ 171.0, 145.0, 48.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
@@ -985,7 +985,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 590.0, 1316.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 171.0, 48.0, 35.0, 15.0 ],
+                    "presentation_rect": [ 170.0, 48.0, 35.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_longname": "Luma x",
@@ -1013,7 +1013,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 687.0, 1316.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 283.0, 48.0, 35.0, 15.0 ],
+                    "presentation_rect": [ 282.0, 48.0, 35.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_longname": "Luma z",
@@ -1041,7 +1041,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 639.0, 1316.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 227.0, 48.0, 35.0, 15.0 ],
+                    "presentation_rect": [ 226.0, 48.0, 35.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_longname": "Luma y",
@@ -1118,7 +1118,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 615.0, 1078.0, 112.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 179.0, 107.0, 112.0, 15.0 ],
+                    "presentation_rect": [ 180.0, 107.0, 112.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "tri_grid", "quad_grid", "points", "lines", "line_strip", "line_loop", "triangles", "tri_fan", "tri_strip", "quads", "quad_strip", "polygon", "lines_adjacency", "line_strip_adjacency", "triangles_adjacency", "triangle_strip_adjacency" ],
@@ -1200,7 +1200,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 250.0, 1110.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 171.0, 66.0, 35.0, 15.0 ],
+                    "presentation_rect": [ 170.0, 66.0, 35.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_longname": "Anchor x",
@@ -1229,7 +1229,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 347.0, 1110.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 283.0, 66.0, 35.0, 15.0 ],
+                    "presentation_rect": [ 282.0, 66.0, 35.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_longname": "Anchor z",
@@ -1271,7 +1271,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 299.0, 1110.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 227.0, 66.0, 35.0, 15.0 ],
+                    "presentation_rect": [ 226.0, 66.0, 35.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_longname": "Anchor y",
@@ -1319,7 +1319,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 439.0, 1110.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 171.0, 84.0, 35.0, 15.0 ],
+                    "presentation_rect": [ 170.0, 84.0, 35.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_longname": "Rotation x",
@@ -1348,10 +1348,9 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 536.0, 1110.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 283.0, 84.0, 35.0, 15.0 ],
+                    "presentation_rect": [ 282.0, 84.0, 35.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
-                            "parameter_linknames": 1,
                             "parameter_longname": "Rotation z",
                             "parameter_mmax": 360.0,
                             "parameter_mmin": -360.0,
@@ -1362,7 +1361,7 @@
                         }
                     },
                     "textjustification": 2,
-                    "varname": "Rotation z"
+                    "varname": "rotationZ"
                 }
             },
             {
@@ -1462,7 +1461,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 488.0, 1110.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 227.0, 84.0, 35.0, 15.0 ],
+                    "presentation_rect": [ 226.0, 84.0, 35.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_longname": "Rotation y",
@@ -1957,7 +1956,7 @@
                     "fontsize": 9.5,
                     "hint": "",
                     "id": "obj-83",
-                    "items": [ "No Input", ",", "<separator>", ",", "Videosync Return A", ",", "Videosync Main", ",", "Live Mesh", ",", "Videosync Monitor 66", ",", "Videosync Recorder 212", ",", "Videosync Monitor 68", ",", "Videosync Return B", ",", "Max Mesh", ",", "Max Mesh" ],
+                    "items": [ "No Input", ",", "<separator>", ",", "Live Mesh", ",", "Max Mesh", ",", "Max Mesh" ],
                     "maxclass": "umenu",
                     "numinlets": 1,
                     "numoutlets": 3,
@@ -2682,16 +2681,8 @@
             "obj-74": [ "Mesh Anti-Aliasing", "Mesh Anti-Aliasing", 0 ],
             "obj-75": [ "Mesh Color", "Mesh Color", 0 ],
             "obj-76": [ "Full-Screen Anti-Aliasing", "FSAA", 0 ],
-            "obj-93": [ "live.numbox", "live.numbox", 0 ],
-            "obj-96": [ "live.numbox[1]", "live.numbox[1]", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
+            "obj-93": [ "Ortho. mode", "Ortho. mode", 0 ],
+            "obj-96": [ "Lens angle", "Lens angle", 0 ],
             "inherited_shortname": 1
         },
         "autosave": 0
