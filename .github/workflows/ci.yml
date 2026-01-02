@@ -44,6 +44,9 @@ jobs:
           mv misc/max-test-config-example.json misc/max-test-config.json
           rm -r patchers
 
+      - name: Use gl2 engine
+        run: echo '{"preferences":{"gfxengine":"gl2"}}' > ~/Library/Application\ Support/Cycling\ \'74/Max\ 9/Settings/maxpreferences.maxpref
+
       - name: Install Ruby gems
         run: gem install sqlite3
 
@@ -60,4 +63,8 @@ jobs:
 
       - name: Show standard error
         run: cat ~/Documents/Max\ 9/Packages/max-test/ruby/stderr.txt
+        if: always()
+
+      - name: Show Max.log
+        run: cat ~/Library/Application\ Support/Cycling\ \'74/Max\ 9/Logs/Max.log
         if: always()
