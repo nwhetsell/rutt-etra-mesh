@@ -1,0 +1,3 @@
+[submodule "patchers/m4l-syphon-output"]
+	path = patchers/m4l-syphon-output
+	url = https://github.com/nwhetsell/m4l-syphon-output
