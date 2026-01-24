@@ -9,10 +9,44 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 287.0, 156.0, 794.0, 780.0 ],
+        "rect": [ 459.0, 240.0, 954.0, 780.0 ],
         "openinpresentation": 1,
         "integercoordinates": 1,
         "boxes": [
+            {
+                "box": {
+                    "args": [ "Rutt-Etra" ],
+                    "bgmode": 0,
+                    "border": 0,
+                    "clickthrough": 0,
+                    "enablehscroll": 0,
+                    "enablevscroll": 0,
+                    "id": "obj-66",
+                    "lockeddragscroll": 0,
+                    "lockedsize": 0,
+                    "maxclass": "bpatcher",
+                    "name": "Syphon Output.maxpat",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "offset": [ 0.0, 0.0 ],
+                    "outlettype": [ "", "" ],
+                    "patching_rect": [ 2.0, 90.0, 108.0, 70.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 2.0, 72.0, 108.0, 70.0 ],
+                    "viewvisibility": 1
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-39",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 30.0, 390.0, 119.0, 22.0 ],
+                    "text": "prepend servername"
+                }
+            },
             {
                 "box": {
                     "id": "obj-57",
@@ -23,7 +57,7 @@
                     "orientation": 1,
                     "patching_rect": [ 3.0, 80.0, 102.0, 5.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 3.0, 80.0, 102.0, 5.0 ],
+                    "presentation_rect": [ 3.0, 68.0, 102.0, 5.0 ],
                     "saved_attribute_attributes": {
                         "linecolor": {
                             "expression": "themecolor.live_lcd_frame"
@@ -60,190 +94,6 @@
                     "text": "Antialias",
                     "texton": "Antialias",
                     "varname": "fsaa"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-39",
-                    "maxclass": "live.comment",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "patching_rect": [ 37.0, 124.0, 23.0, 18.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 37.0, 124.0, 23.0, 18.0 ],
-                    "saved_attribute_attributes": {
-                        "textcolor": {
-                            "expression": "themecolor.live_lcd_control_fg_zombie"
-                        }
-                    },
-                    "text": "fps",
-                    "textcolor": [ 0.5647058823529412, 0.5176470588235295, 0.47058823529411764, 1.0 ],
-                    "textjustification": 0
-                }
-            },
-            {
-                "box": {
-                    "bgmode": 0,
-                    "border": 0,
-                    "clickthrough": 0,
-                    "embed": 1,
-                    "enablehscroll": 0,
-                    "enablevscroll": 0,
-                    "id": "obj-6",
-                    "lockeddragscroll": 0,
-                    "lockedsize": 0,
-                    "maxclass": "bpatcher",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "offset": [ 0.0, 0.0 ],
-                    "patcher": {
-                        "fileversion": 1,
-                        "appversion": {
-                            "major": 9,
-                            "minor": 1,
-                            "revision": 2,
-                            "architecture": "x64",
-                            "modernui": 1
-                        },
-                        "classnamespace": "box",
-                        "rect": [ 524.0, 212.0, 365.0, 780.0 ],
-                        "openinpresentation": 1,
-                        "boxes": [
-                            {
-                                "box": {
-                                    "bgcolor": [ 0.10980392156862745, 0.09019607843137255, 0.0784313725490196, 1.0 ],
-                                    "fontface": 0,
-                                    "fontname": "Ableton Sans Medium",
-                                    "fontsize": 9.5,
-                                    "id": "obj-110",
-                                    "ignoreclick": 1,
-                                    "maxclass": "jit.fpsgui",
-                                    "numinlets": 1,
-                                    "numoutlets": 2,
-                                    "outlettype": [ "", "" ],
-                                    "patching_rect": [ 0.0, 45.0, 69.0, 34.0 ],
-                                    "presentation": 1,
-                                    "presentation_rect": [ 0.0, 0.0, 69.0, 34.0 ],
-                                    "saved_attribute_attributes": {
-                                        "bgcolor": {
-                                            "expression": "themecolor.live_lcd_bg"
-                                        },
-                                        "textcolor": {
-                                            "expression": "themecolor.live_lcd_control_fg_zombie"
-                                        }
-                                    },
-                                    "textcolor": [ 0.5647058823529412, 0.5176470588235295, 0.47058823529411764, 1.0 ]
-                                }
-                            },
-                            {
-                                "box": {
-                                    "comment": "",
-                                    "id": "obj-1",
-                                    "index": 1,
-                                    "maxclass": "inlet",
-                                    "numinlets": 0,
-                                    "numoutlets": 1,
-                                    "outlettype": [ "jit_gl_texture" ],
-                                    "patching_rect": [ 0.0, 0.0, 30.0, 30.0 ]
-                                }
-                            }
-                        ],
-                        "lines": [
-                            {
-                                "patchline": {
-                                    "destination": [ "obj-110", 0 ],
-                                    "source": [ "obj-1", 0 ]
-                                }
-                            }
-                        ]
-                    },
-                    "patching_rect": [ 120.0, 375.0, 37.0, 17.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 2.0, 125.0, 36.0, 17.0 ],
-                    "viewvisibility": 1
-                }
-            },
-            {
-                "box": {
-                    "bgmode": 0,
-                    "border": 0,
-                    "clickthrough": 0,
-                    "embed": 1,
-                    "enablehscroll": 0,
-                    "enablevscroll": 0,
-                    "id": "obj-111",
-                    "lockeddragscroll": 0,
-                    "lockedsize": 0,
-                    "maxclass": "bpatcher",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "offset": [ 0.0, 0.0 ],
-                    "patcher": {
-                        "fileversion": 1,
-                        "appversion": {
-                            "major": 9,
-                            "minor": 1,
-                            "revision": 2,
-                            "architecture": "x64",
-                            "modernui": 1
-                        },
-                        "classnamespace": "box",
-                        "rect": [ 524.0, 212.0, 365.0, 780.0 ],
-                        "openinpresentation": 1,
-                        "boxes": [
-                            {
-                                "box": {
-                                    "bgcolor": [ 0.10980392156862745, 0.09019607843137255, 0.0784313725490196, 1.0 ],
-                                    "fontface": 0,
-                                    "fontname": "Ableton Sans Medium",
-                                    "fontsize": 9.5,
-                                    "id": "obj-110",
-                                    "ignoreclick": 1,
-                                    "maxclass": "jit.fpsgui",
-                                    "mode": 3,
-                                    "numinlets": 1,
-                                    "numoutlets": 2,
-                                    "outlettype": [ "", "" ],
-                                    "patching_rect": [ 0.0, 45.0, 69.0, 34.0 ],
-                                    "presentation": 1,
-                                    "presentation_rect": [ 0.0, 0.0, 69.0, 34.0 ],
-                                    "saved_attribute_attributes": {
-                                        "bgcolor": {
-                                            "expression": "themecolor.live_lcd_bg"
-                                        },
-                                        "textcolor": {
-                                            "expression": "themecolor.live_lcd_control_fg_zombie"
-                                        }
-                                    },
-                                    "textcolor": [ 0.5647058823529412, 0.5176470588235295, 0.47058823529411764, 1.0 ]
-                                }
-                            },
-                            {
-                                "box": {
-                                    "comment": "",
-                                    "id": "obj-1",
-                                    "index": 1,
-                                    "maxclass": "inlet",
-                                    "numinlets": 0,
-                                    "numoutlets": 1,
-                                    "outlettype": [ "jit_gl_texture" ],
-                                    "patching_rect": [ 0.0, 0.0, 30.0, 30.0 ]
-                                }
-                            }
-                        ],
-                        "lines": [
-                            {
-                                "patchline": {
-                                    "destination": [ "obj-110", 0 ],
-                                    "source": [ "obj-1", 0 ]
-                                }
-                            }
-                        ]
-                    },
-                    "patching_rect": [ 40.0, 375.0, 70.0, 17.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 2.0, 109.0, 70.0, 17.0 ],
-                    "viewvisibility": 1
                 }
             },
             {
@@ -549,7 +399,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 3.0, 28.0, 44.0, 18.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 3.0, 35.0, 44.0, 18.0 ],
+                    "presentation_rect": [ 3.0, 29.0, 44.0, 18.0 ],
                     "saved_attribute_attributes": {
                         "textcolor": {
                             "expression": "themecolor.live_lcd_title"
@@ -803,58 +653,6 @@
             },
             {
                 "box": {
-                    "annotation": "Show a window for the mesh.",
-                    "appearance": 2,
-                    "automation": "Off",
-                    "automationon": "On",
-                    "id": "obj-73",
-                    "maxclass": "live.text",
-                    "numinlets": 1,
-                    "numoutlets": 2,
-                    "outlettype": [ "", "" ],
-                    "parameter_enable": 1,
-                    "patching_rect": [ 53.0, 270.0, 44.0, 15.0 ],
-                    "pictures": [ "browser-16.svg", "browser-16.svg" ],
-                    "presentation": 1,
-                    "presentation_rect": [ 53.0, 91.0, 28.0, 15.0 ],
-                    "remapsvgcolors": 1,
-                    "saved_attribute_attributes": {
-                        "valueof": {
-                            "parameter_enum": [ "Off", "On" ],
-                            "parameter_longname": "Show Window",
-                            "parameter_mmax": 1,
-                            "parameter_modmode": 0,
-                            "parameter_shortname": "Show Window",
-                            "parameter_type": 2
-                        }
-                    },
-                    "text": "Off",
-                    "texton": "On",
-                    "usepicture": 1,
-                    "varname": "showWindow"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-66",
-                    "maxclass": "live.comment",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "patching_rect": [ 3.0, 90.0, 44.0, 18.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 3.0, 90.0, 44.0, 18.0 ],
-                    "saved_attribute_attributes": {
-                        "textcolor": {
-                            "expression": "themecolor.live_lcd_title"
-                        }
-                    },
-                    "text": "Output",
-                    "textcolor": [ 0.7450980392156863, 0.7019607843137254, 0.6470588235294118, 1.0 ],
-                    "textjustification": 0
-                }
-            },
-            {
-                "box": {
                     "fontface": 0,
                     "fontsize": 12.0,
                     "id": "obj-70",
@@ -881,7 +679,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 35.0, 555.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 54.0, 36.0, 47.0, 15.0 ],
+                    "presentation_rect": [ 55.0, 30.0, 47.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_button_mode": "Momentary",
@@ -1956,7 +1754,7 @@
                     "fontsize": 9.5,
                     "hint": "",
                     "id": "obj-83",
-                    "items": [ "No Input", ",", "<separator>", ",", "Live Mesh", ",", "Max Mesh", ",", "Max Mesh" ],
+                    "items": [ "No Input", ",", "<separator>", ",", "Max Rutt-Etra" ],
                     "maxclass": "umenu",
                     "numinlets": 1,
                     "numoutlets": 3,
@@ -1964,7 +1762,7 @@
                     "parameter_enable": 0,
                     "patching_rect": [ 294.0, 751.0, 120.0, 20.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 2.0, 54.0, 106.0, 20.0 ],
+                    "presentation_rect": [ 2.0, 45.0, 106.0, 20.0 ],
                     "saved_attribute_attributes": {
                         "bgfillcolor": {
                             "expression": "themecolor.live_lcd_bg"
@@ -2003,8 +1801,8 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 15.0, 420.0, 309.0, 22.0 ],
-                    "text": "jit.gl.syphonserver \"Rutt/Etra Mesh\" @servername Mesh"
+                    "patching_rect": [ 15.0, 420.0, 197.0, 22.0 ],
+                    "text": "jit.gl.syphonserver \"Rutt/Etra Mesh\""
                 }
             },
             {
@@ -2128,13 +1926,6 @@
         "lines": [
             {
                 "patchline": {
-                    "destination": [ "obj-111", 0 ],
-                    "order": 2,
-                    "source": [ "obj-1", 0 ]
-                }
-            },
-            {
-                "patchline": {
                     "destination": [ "obj-2", 0 ],
                     "midpoints": [ 263.0, 381.890625, 357.2890625, 381.890625, 357.2890625, 617.0390625, 24.5, 617.0390625 ],
                     "source": [ "obj-1", 1 ]
@@ -2149,8 +1940,8 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-6", 0 ],
-                    "midpoints": [ 24.5, 371.0, 129.5, 371.0 ],
+                    "destination": [ "obj-66", 0 ],
+                    "midpoints": [ 24.5, 369.0, 132.65234375, 369.0, 132.65234375, 65.1953125, 11.484375215834007, 65.1953125, 11.484375215834007, 87.0, 11.5, 87.0 ],
                     "order": 1,
                     "source": [ "obj-1", 0 ]
                 }
@@ -2367,6 +2158,12 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-23", 0 ],
+                    "source": [ "obj-39", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-41", 0 ],
                     "midpoints": [ 368.5, 289.984375, 219.5, 289.984375 ],
                     "source": [ "obj-4", 0 ]
@@ -2535,6 +2332,20 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-21", 0 ],
+                    "midpoints": [ 100.5, 268.47265625, 62.5, 268.47265625 ],
+                    "source": [ "obj-66", 1 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-39", 0 ],
+                    "midpoints": [ 11.5, 379.984375, 39.5, 379.984375 ],
+                    "source": [ "obj-66", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-35", 0 ],
                     "midpoints": [ 624.5, 1188.5, 24.5, 1188.5 ],
                     "source": [ "obj-67", 0 ]
@@ -2558,12 +2369,6 @@
                     "destination": [ "obj-35", 0 ],
                     "midpoints": [ 1209.5, 1188.78125, 24.5, 1188.78125 ],
                     "source": [ "obj-70", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-21", 0 ],
-                    "source": [ "obj-73", 0 ]
                 }
             },
             {
@@ -2676,8 +2481,8 @@
             "obj-60": [ "Anchor z", "Anchor z", 0 ],
             "obj-63": [ "Anchor y", "Anchor y", 0 ],
             "obj-64": [ "Draw Mode", "Draw Mode", 0 ],
+            "obj-66::obj-35": [ "Show Window", "Show Window", 0 ],
             "obj-7": [ "Grid x Dimension", "Grid x Dimension", 0 ],
-            "obj-73": [ "Show Window", "Show Window", 0 ],
             "obj-74": [ "Mesh Anti-Aliasing", "Mesh Anti-Aliasing", 0 ],
             "obj-75": [ "Mesh Color", "Mesh Color", 0 ],
             "obj-76": [ "Full-Screen Anti-Aliasing", "FSAA", 0 ],
