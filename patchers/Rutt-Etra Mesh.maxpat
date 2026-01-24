@@ -684,6 +684,7 @@
                         "valueof": {
                             "parameter_button_mode": "Momentary",
                             "parameter_enum": [ "Off", "On" ],
+                            "parameter_invisible": 2,
                             "parameter_longname": "Refresh Syphon Clients",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
