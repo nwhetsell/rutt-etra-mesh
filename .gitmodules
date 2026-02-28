@@ -1,3 +1,6 @@
 [submodule "patchers/m4l-syphon-output"]
 	path = patchers/m4l-syphon-output
 	url = https://github.com/nwhetsell/m4l-syphon-output
+[submodule "patchers/m4l-mesh-draw-mode"]
+	path = patchers/m4l-mesh-draw-mode
+	url = https://github.com/nwhetsell/m4l-mesh-draw-mode.git

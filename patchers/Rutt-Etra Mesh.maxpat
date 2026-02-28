@@ -9,10 +9,32 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 459.0, 240.0, 954.0, 780.0 ],
+        "rect": [ 650.0, 217.0, 614.0, 780.0 ],
         "openinpresentation": 1,
         "integercoordinates": 1,
         "boxes": [
+            {
+                "box": {
+                    "bgmode": 0,
+                    "border": 0,
+                    "clickthrough": 0,
+                    "enablehscroll": 0,
+                    "enablevscroll": 0,
+                    "id": "obj-73",
+                    "lockeddragscroll": 0,
+                    "lockedsize": 0,
+                    "maxclass": "bpatcher",
+                    "name": "Mesh Draw Mode.maxpat",
+                    "numinlets": 0,
+                    "numoutlets": 3,
+                    "offset": [ 0.0, 0.0 ],
+                    "outlettype": [ "", "", "" ],
+                    "patching_rect": [ 615.0, 1130.0, 177.0, 32.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 115.0, 108.0, 177.0, 32.0 ],
+                    "viewvisibility": 1
+                }
+            },
             {
                 "box": {
                     "args": [ "Rutt-Etra" ],
@@ -50,7 +72,7 @@
             {
                 "box": {
                     "id": "obj-57",
-                    "linecolor": [ 0.26666666666666666, 0.23529411764705882, 0.21176470588235294, 1.0 ],
+                    "linecolor": [ 0.172137147130865, 0.17213710084121, 0.172137112999252, 1.0 ],
                     "maxclass": "live.line",
                     "numinlets": 1,
                     "numoutlets": 0,
@@ -98,222 +120,6 @@
             },
             {
                 "box": {
-                    "fontface": 0,
-                    "fontsize": 12.0,
-                    "id": "obj-106",
-                    "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 944.0, 1140.0, 109.0, 22.0 ],
-                    "text": "prepend line_width"
-                }
-            },
-            {
-                "box": {
-                    "bgmode": 0,
-                    "border": 0,
-                    "clickthrough": 0,
-                    "embed": 1,
-                    "enablehscroll": 0,
-                    "enablevscroll": 0,
-                    "id": "obj-100",
-                    "lockeddragscroll": 0,
-                    "lockedsize": 0,
-                    "maxclass": "bpatcher",
-                    "numinlets": 1,
-                    "numoutlets": 2,
-                    "offset": [ 0.0, -30.0 ],
-                    "outlettype": [ "", "" ],
-                    "patcher": {
-                        "fileversion": 1,
-                        "appversion": {
-                            "major": 9,
-                            "minor": 1,
-                            "revision": 2,
-                            "architecture": "x64",
-                            "modernui": 1
-                        },
-                        "classnamespace": "box",
-                        "rect": [ 1034.0, 303.0, 320.0, 780.0 ],
-                        "openinpresentation": 1,
-                        "boxes": [
-                            {
-                                "box": {
-                                    "id": "obj-3",
-                                    "maxclass": "live.comment",
-                                    "numinlets": 1,
-                                    "numoutlets": 0,
-                                    "patching_rect": [ 630.0, 1065.0, 69.0, 18.0 ],
-                                    "presentation": 1,
-                                    "presentation_rect": [ 0.0, 30.0, 56.0, 18.0 ],
-                                    "saved_attribute_attributes": {
-                                        "textcolor": {
-                                            "expression": "themecolor.live_display_scale_text"
-                                        }
-                                    },
-                                    "text": "Line width",
-                                    "textcolor": [ 0.5647058823529412, 0.5176470588235295, 0.47058823529411764, 1.0 ],
-                                    "textjustification": 0
-                                }
-                            },
-                            {
-                                "box": {
-                                    "id": "obj-9",
-                                    "maxclass": "live.comment",
-                                    "numinlets": 1,
-                                    "numoutlets": 0,
-                                    "patching_rect": [ 615.0, 1050.0, 69.0, 18.0 ],
-                                    "presentation": 1,
-                                    "presentation_rect": [ 0.0, 0.0, 56.0, 18.0 ],
-                                    "saved_attribute_attributes": {
-                                        "textcolor": {
-                                            "expression": "themecolor.live_display_scale_text"
-                                        }
-                                    },
-                                    "text": "Point size",
-                                    "textcolor": [ 0.5647058823529412, 0.5176470588235295, 0.47058823529411764, 1.0 ],
-                                    "textjustification": 0
-                                }
-                            },
-                            {
-                                "box": {
-                                    "id": "obj-8",
-                                    "maxclass": "newobj",
-                                    "numinlets": 1,
-                                    "numoutlets": 2,
-                                    "outlettype": [ "", "" ],
-                                    "patching_rect": [ 0.0, 45.0, 67.0, 22.0 ],
-                                    "save": [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
-                                    "text": "thispatcher"
-                                }
-                            },
-                            {
-                                "box": {
-                                    "comment": "Line width",
-                                    "id": "obj-7",
-                                    "index": 2,
-                                    "maxclass": "outlet",
-                                    "numinlets": 1,
-                                    "numoutlets": 0,
-                                    "patching_rect": [ 135.0, 75.0, 30.0, 30.0 ]
-                                }
-                            },
-                            {
-                                "box": {
-                                    "comment": "Point size",
-                                    "id": "obj-6",
-                                    "index": 1,
-                                    "maxclass": "outlet",
-                                    "numinlets": 1,
-                                    "numoutlets": 0,
-                                    "patching_rect": [ 90.0, 75.0, 30.0, 30.0 ]
-                                }
-                            },
-                            {
-                                "box": {
-                                    "comment": "thispatcher",
-                                    "id": "obj-2",
-                                    "index": 1,
-                                    "maxclass": "inlet",
-                                    "numinlets": 0,
-                                    "numoutlets": 1,
-                                    "outlettype": [ "" ],
-                                    "patching_rect": [ 0.0, 0.0, 30.0, 30.0 ]
-                                }
-                            },
-                            {
-                                "box": {
-                                    "annotation": "Thickness of mesh lines.",
-                                    "annotation_name": "Line Width",
-                                    "appearance": 4,
-                                    "id": "obj-1",
-                                    "maxclass": "live.numbox",
-                                    "numinlets": 1,
-                                    "numoutlets": 2,
-                                    "outlettype": [ "", "float" ],
-                                    "parameter_enable": 1,
-                                    "patching_rect": [ 135.0, 45.0, 35.0, 15.0 ],
-                                    "presentation": 1,
-                                    "presentation_rect": [ 65.0, 30.0, 35.0, 15.0 ],
-                                    "saved_attribute_attributes": {
-                                        "valueof": {
-                                            "parameter_initial": [ 1.0 ],
-                                            "parameter_initial_enable": 1,
-                                            "parameter_longname": "Line Width",
-                                            "parameter_mmax": 10.0,
-                                            "parameter_modmode": 3,
-                                            "parameter_shortname": "Line Width",
-                                            "parameter_type": 0,
-                                            "parameter_units": "%.1f",
-                                            "parameter_unitstyle": 9
-                                        }
-                                    },
-                                    "textjustification": 0,
-                                    "varname": "lineWidth"
-                                }
-                            },
-                            {
-                                "box": {
-                                    "annotation": "Size of points when draw mode is “points”.",
-                                    "annotation_name": "Point Size",
-                                    "appearance": 4,
-                                    "id": "obj-79",
-                                    "maxclass": "live.numbox",
-                                    "numinlets": 1,
-                                    "numoutlets": 2,
-                                    "outlettype": [ "", "float" ],
-                                    "parameter_enable": 1,
-                                    "patching_rect": [ 90.0, 45.0, 35.0, 15.0 ],
-                                    "presentation": 1,
-                                    "presentation_rect": [ 65.0, 0.0, 35.0, 15.0 ],
-                                    "saved_attribute_attributes": {
-                                        "valueof": {
-                                            "parameter_initial": [ 1.0 ],
-                                            "parameter_initial_enable": 1,
-                                            "parameter_longname": "Point Size",
-                                            "parameter_mmax": 10.0,
-                                            "parameter_modmode": 3,
-                                            "parameter_shortname": "Point Size",
-                                            "parameter_type": 0,
-                                            "parameter_units": "%.1f",
-                                            "parameter_unitstyle": 9
-                                        }
-                                    },
-                                    "textjustification": 0,
-                                    "varname": "pointSize"
-                                }
-                            }
-                        ],
-                        "lines": [
-                            {
-                                "patchline": {
-                                    "destination": [ "obj-7", 0 ],
-                                    "source": [ "obj-1", 0 ]
-                                }
-                            },
-                            {
-                                "patchline": {
-                                    "destination": [ "obj-8", 0 ],
-                                    "source": [ "obj-2", 0 ]
-                                }
-                            },
-                            {
-                                "patchline": {
-                                    "destination": [ "obj-6", 0 ],
-                                    "source": [ "obj-79", 0 ]
-                                }
-                            }
-                        ]
-                    },
-                    "patching_rect": [ 810.0, 1106.0, 87.0, 20.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 115.0, 123.0, 109.0, 15.0 ],
-                    "viewvisibility": 1
-                }
-            },
-            {
-                "box": {
                     "fontface": 2,
                     "id": "obj-98",
                     "maxclass": "live.comment",
@@ -328,7 +134,7 @@
                         }
                     },
                     "text": "z",
-                    "textcolor": [ 0.5647058823529412, 0.5176470588235295, 0.47058823529411764, 1.0 ],
+                    "textcolor": [ 0.657821949875413, 0.657821776867812, 0.657821821776255, 1.0 ],
                     "textjustification": 1
                 }
             },
@@ -348,7 +154,7 @@
                         }
                     },
                     "text": "y",
-                    "textcolor": [ 0.5647058823529412, 0.5176470588235295, 0.47058823529411764, 1.0 ],
+                    "textcolor": [ 0.657821949875413, 0.657821776867812, 0.657821821776255, 1.0 ],
                     "textjustification": 1
                 }
             },
@@ -368,7 +174,7 @@
                         }
                     },
                     "text": "x",
-                    "textcolor": [ 0.5647058823529412, 0.5176470588235295, 0.47058823529411764, 1.0 ],
+                    "textcolor": [ 0.657821949875413, 0.657821776867812, 0.657821821776255, 1.0 ],
                     "textjustification": 1
                 }
             },
@@ -387,7 +193,7 @@
                         }
                     },
                     "text": "×",
-                    "textcolor": [ 0.5647058823529412, 0.5176470588235295, 0.47058823529411764, 1.0 ],
+                    "textcolor": [ 0.657821949875413, 0.657821776867812, 0.657821821776255, 1.0 ],
                     "textjustification": 1
                 }
             },
@@ -406,7 +212,7 @@
                         }
                     },
                     "text": "Input",
-                    "textcolor": [ 0.7450980392156863, 0.7019607843137254, 0.6470588235294118, 1.0 ],
+                    "textcolor": [ 0.746970796362449, 0.746970609902925, 0.746970658435034, 1.0 ],
                     "textjustification": 0
                 }
             },
@@ -555,19 +361,6 @@
             },
             {
                 "box": {
-                    "fontface": 0,
-                    "fontsize": 12.0,
-                    "id": "obj-80",
-                    "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 810.0, 1140.0, 110.0, 22.0 ],
-                    "text": "prepend point_size"
-                }
-            },
-            {
-                "box": {
                     "bgcolor": [ 0.18541649084756184, 0.1578078464759768, 0.1423488866630372, 1 ],
                     "bgcolor2": [ 0.18541649084756184, 0.1578078464759768, 0.1423488866630372, 1 ],
                     "bgfillcolor_angle": 270.0,
@@ -602,7 +395,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 1200.0, 1110.0, 48.0, 15.0 ],
+                    "patching_rect": [ 945.0, 1110.0, 48.0, 15.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 171.0, 145.0, 48.0, 15.0 ],
                     "saved_attribute_attributes": {
@@ -633,7 +426,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 1080.0, 1110.0, 44.0, 15.0 ],
+                    "patching_rect": [ 825.0, 1110.0, 44.0, 15.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 118.0, 145.0, 48.0, 15.0 ],
                     "saved_attribute_attributes": {
@@ -660,7 +453,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1200.0, 1140.0, 118.0, 22.0 ],
+                    "patching_rect": [ 945.0, 1140.0, 118.0, 22.0 ],
                     "text": "prepend auto_colors"
                 }
             },
@@ -870,69 +663,8 @@
                         }
                     },
                     "text": "Luma amt.",
-                    "textcolor": [ 0.5647058823529412, 0.5176470588235295, 0.47058823529411764, 1.0 ],
+                    "textcolor": [ 0.657821949875413, 0.657821776867812, 0.657821821776255, 1.0 ],
                     "textjustification": 0
-                }
-            },
-            {
-                "box": {
-                    "fontface": 0,
-                    "fontsize": 12.0,
-                    "id": "obj-10",
-                    "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 2,
-                    "outlettype": [ "", "" ],
-                    "patching_rect": [ 615.0, 1108.0, 170.0, 22.0 ],
-                    "saved_object_attributes": {
-                        "filename": "drawModeMenuController.js",
-                        "parameter_enable": 0
-                    },
-                    "text": "js drawModeMenuController.js"
-                }
-            },
-            {
-                "box": {
-                    "fontface": 0,
-                    "fontsize": 12.0,
-                    "id": "obj-67",
-                    "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 615.0, 1140.0, 119.0, 22.0 ],
-                    "text": "prepend draw_mode"
-                }
-            },
-            {
-                "box": {
-                    "annotation": "Mesh draw mode. Use “line_strip” for a Rutt/Etra–style effect.",
-                    "annotation_name": "Draw Mode",
-                    "appearance": 4,
-                    "id": "obj-64",
-                    "maxclass": "live.numbox",
-                    "numinlets": 1,
-                    "numoutlets": 2,
-                    "outlettype": [ "", "float" ],
-                    "parameter_enable": 1,
-                    "patching_rect": [ 615.0, 1078.0, 112.0, 15.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 180.0, 107.0, 112.0, 15.0 ],
-                    "saved_attribute_attributes": {
-                        "valueof": {
-                            "parameter_enum": [ "tri_grid", "quad_grid", "points", "lines", "line_strip", "line_loop", "triangles", "tri_fan", "tri_strip", "quads", "quad_strip", "polygon", "lines_adjacency", "line_strip_adjacency", "triangles_adjacency", "triangle_strip_adjacency" ],
-                            "parameter_initial": [ 4.0 ],
-                            "parameter_initial_enable": 1,
-                            "parameter_longname": "Draw Mode",
-                            "parameter_mmax": 15,
-                            "parameter_modmode": 0,
-                            "parameter_shortname": "Draw Mode",
-                            "parameter_type": 2,
-                            "parameter_unitstyle": 9
-                        }
-                    },
-                    "textjustification": 0,
-                    "varname": "drawMode"
                 }
             },
             {
@@ -950,7 +682,7 @@
                         }
                     },
                     "text": "Grid",
-                    "textcolor": [ 0.5647058823529412, 0.5176470588235295, 0.47058823529411764, 1.0 ],
+                    "textcolor": [ 0.657821949875413, 0.657821776867812, 0.657821821776255, 1.0 ],
                     "textjustification": 0
                 }
             },
@@ -963,27 +695,8 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1080.0, 1140.0, 100.0, 22.0 ],
+                    "patching_rect": [ 825.0, 1140.0, 100.0, 22.0 ],
                     "text": "prepend antialias"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-9",
-                    "maxclass": "live.comment",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "patching_rect": [ 615.0, 1050.0, 69.0, 18.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 115.0, 106.0, 56.0, 18.0 ],
-                    "saved_attribute_attributes": {
-                        "textcolor": {
-                            "expression": "themecolor.live_display_scale_text"
-                        }
-                    },
-                    "text": "Draw mode",
-                    "textcolor": [ 0.5647058823529412, 0.5176470588235295, 0.47058823529411764, 1.0 ],
-                    "textjustification": 0
                 }
             },
             {
@@ -995,7 +708,8 @@
                     "maxclass": "live.numbox",
                     "numinlets": 1,
                     "numoutlets": 2,
-                    "outlettype": [ "", "float" ],                    "parameter_enable": 1,
+                    "outlettype": [ "", "float" ],
+                    "parameter_enable": 1,
                     "patching_rect": [ 250.0, 1110.0, 44.0, 15.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 170.0, 66.0, 35.0, 15.0 ],
@@ -1100,7 +814,7 @@
                         }
                     },
                     "text": "Rot. (deg.)",
-                    "textcolor": [ 0.5647058823529412, 0.5176470588235295, 0.47058823529411764, 1.0 ],
+                    "textcolor": [ 0.657821949875413, 0.657821776867812, 0.657821821776255, 1.0 ],
                     "textjustification": 0
                 }
             },
@@ -1190,7 +904,7 @@
                         }
                     },
                     "text": "Anchor",
-                    "textcolor": [ 0.5647058823529412, 0.5176470588235295, 0.47058823529411764, 1.0 ],
+                    "textcolor": [ 0.657821949875413, 0.657821776867812, 0.657821821776255, 1.0 ],
                     "textjustification": 0
                 }
             },
@@ -1209,7 +923,7 @@
                         }
                     },
                     "text": "Scale",
-                    "textcolor": [ 0.5647058823529412, 0.5176470588235295, 0.47058823529411764, 1.0 ],
+                    "textcolor": [ 0.657821949875413, 0.657821776867812, 0.657821821776255, 1.0 ],
                     "textjustification": 0
                 }
             },
@@ -1229,7 +943,7 @@
                         }
                     },
                     "text": "Mesh",
-                    "textcolor": [ 0.7450980392156863, 0.7019607843137254, 0.6470588235294118, 1.0 ],
+                    "textcolor": [ 0.746970796362449, 0.746970609902925, 0.746970658435034, 1.0 ],
                     "textjustification": 0
                 }
             },
@@ -1534,7 +1248,7 @@
                         }
                     },
                     "text": "Syphon",
-                    "textcolor": [ 0.7450980392156863, 0.7019607843137254, 0.6470588235294118, 1.0 ],
+                    "textcolor": [ 0.746970796362449, 0.746970609902925, 0.746970658435034, 1.0 ],
                     "textjustification": 0
                 }
             },
@@ -1742,9 +1456,9 @@
                     "allowdrag": 0,
                     "annotation": "Sets the Syphon Server to receive video textures from.",
                     "applycolors": 1,
-                    "bgcolor": [ 0.10980392156862745, 0.09019607843137255, 0.0784313725490196, 1.0 ],
+                    "bgcolor": [ 0.079348079365577, 0.07934804057877, 0.079348050547289, 1.0 ],
                     "bgfillcolor_angle": 270.0,
-                    "bgfillcolor_color": [ 0.10980392156862745, 0.09019607843137255, 0.0784313725490196, 1.0 ],
+                    "bgfillcolor_color": [ 0.079348079365577, 0.07934804057877, 0.079348050547289, 1.0 ],
                     "bgfillcolor_color1": [ 0.18541649084756184, 0.1578078464759768, 0.1423488866630372, 1 ],
                     "bgfillcolor_color2": [ 0.18541649084756184, 0.1578078464759768, 0.1423488866630372, 1 ],
                     "bgfillcolor_proportion": 0.39,
@@ -1771,7 +1485,7 @@
                             "expression": "themecolor.live_lcd_control_fg_alt"
                         }
                     },
-                    "textcolor": [ 0.011764705882352941, 0.7647058823529411, 0.8352941176470589, 1.0 ],
+                    "textcolor": [ 0.618934978328545, 0.744701397656435, 0.953750108255376, 1.0 ],
                     "varname": "Syphon Client"
                 }
             },
@@ -1885,7 +1599,7 @@
             {
                 "box": {
                     "angle": 270.0,
-                    "bgcolor": [ 0.10980392156862745, 0.09019607843137255, 0.0784313725490196, 1.0 ],
+                    "bgcolor": [ 0.079348079365577, 0.07934804057877, 0.079348050547289, 1.0 ],
                     "id": "obj-3",
                     "maxclass": "panel",
                     "mode": 0,
@@ -1905,7 +1619,7 @@
             {
                 "box": {
                     "angle": 270.0,
-                    "bgcolor": [ 0.10980392156862745, 0.09019607843137255, 0.0784313725490196, 1.0 ],
+                    "bgcolor": [ 0.079348079365577, 0.07934804057877, 0.079348050547289, 1.0 ],
                     "id": "obj-77",
                     "maxclass": "panel",
                     "mode": 0,
@@ -1941,7 +1655,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-66", 0 ],
-                    "midpoints": [ 24.5, 369.0, 132.65234375, 369.0, 132.65234375, 65.1953125, 11.484375215834007, 65.1953125, 11.484375215834007, 87.0, 11.5, 87.0 ],
+                    "midpoints": [ 24.5, 372.3984375, 132.65234375, 372.3984375, 132.65234375, 82.90234375, 11.484375215834007, 82.90234375, 11.484375215834007, 87.0, 11.5, 87.0 ],
                     "order": 1,
                     "source": [ "obj-1", 0 ]
                 }
@@ -1950,38 +1664,6 @@
                 "patchline": {
                     "destination": [ "obj-69", 0 ],
                     "source": [ "obj-1", 2 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-100", 0 ],
-                    "midpoints": [ 775.5, 1131.0, 796.890625, 1131.0, 796.890625, 1098.08984375, 819.5, 1098.08984375 ],
-                    "source": [ "obj-10", 1 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-67", 0 ],
-                    "source": [ "obj-10", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-106", 0 ],
-                    "source": [ "obj-100", 1 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-80", 0 ],
-                    "source": [ "obj-100", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-35", 0 ],
-                    "midpoints": [ 953.5, 1188.703125, 24.5, 1188.703125 ],
-                    "source": [ "obj-106", 0 ]
                 }
             },
             {
@@ -2271,7 +1953,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-35", 0 ],
-                    "midpoints": [ 1089.5, 1189.3984375, 24.5, 1189.3984375 ],
+                    "midpoints": [ 834.5, 1189.3984375, 24.5, 1189.3984375 ],
                     "source": [ "obj-52", 0 ]
                 }
             },
@@ -2320,12 +2002,6 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-10", 0 ],
-                    "source": [ "obj-64", 0 ]
-                }
-            },
-            {
-                "patchline": {
                     "destination": [ "obj-41", 0 ],
                     "source": [ "obj-65", 0 ]
                 }
@@ -2346,13 +2022,6 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-35", 0 ],
-                    "midpoints": [ 624.5, 1188.5, 24.5, 1188.5 ],
-                    "source": [ "obj-67", 0 ]
-                }
-            },
-            {
-                "patchline": {
                     "destination": [ "obj-41", 0 ],
                     "midpoints": [ 501.5, 405.93359375, 643.421875, 405.93359375, 643.421875, 290.43359375, 219.5, 290.43359375 ],
                     "source": [ "obj-69", 0 ]
@@ -2367,8 +2036,29 @@
             {
                 "patchline": {
                     "destination": [ "obj-35", 0 ],
-                    "midpoints": [ 1209.5, 1188.78125, 24.5, 1188.78125 ],
+                    "midpoints": [ 954.5, 1188.78125, 24.5, 1188.78125 ],
                     "source": [ "obj-70", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-35", 0 ],
+                    "midpoints": [ 782.5, 1188.703125, 24.5, 1188.703125 ],
+                    "source": [ "obj-73", 2 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-35", 0 ],
+                    "midpoints": [ 703.5, 1189.76171875, 24.5, 1189.76171875 ],
+                    "source": [ "obj-73", 1 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-35", 0 ],
+                    "midpoints": [ 624.5, 1188.5, 24.5, 1188.5 ],
+                    "source": [ "obj-73", 0 ]
                 }
             },
             {
@@ -2400,13 +2090,6 @@
                 "patchline": {
                     "destination": [ "obj-2", 0 ],
                     "source": [ "obj-8", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-35", 0 ],
-                    "midpoints": [ 819.5, 1189.76171875, 24.5, 1189.76171875 ],
-                    "source": [ "obj-80", 0 ]
                 }
             },
             {
@@ -2466,8 +2149,6 @@
             }
         ],
         "parameters": {
-            "obj-100::obj-1": [ "Line Width", "Line Width", 0 ],
-            "obj-100::obj-79": [ "Point Size", "Point Size", 0 ],
             "obj-30": [ "Mesh Scale", "Mesh Scale", 0 ],
             "obj-31": [ "Grid y Dimension", "Grid y Dimension", 0 ],
             "obj-32": [ "Luma x", "Luma x", 0 ],
@@ -2480,14 +2161,35 @@
             "obj-59": [ "Anchor x", "Anchor x", 0 ],
             "obj-60": [ "Anchor z", "Anchor z", 0 ],
             "obj-63": [ "Anchor y", "Anchor y", 0 ],
-            "obj-64": [ "Draw Mode", "Draw Mode", 0 ],
             "obj-66::obj-35": [ "Show Window", "Show Window", 0 ],
             "obj-7": [ "Grid x Dimension", "Grid x Dimension", 0 ],
+            "obj-73::obj-100::obj-1": [ "Line Width[1]", "Line Width", 0 ],
+            "obj-73::obj-100::obj-79": [ "Point Size[1]", "Point Size", 0 ],
+            "obj-73::obj-64": [ "Draw Mode[1]", "Draw Mode", 0 ],
             "obj-74": [ "Mesh Anti-Aliasing", "Mesh Anti-Aliasing", 0 ],
             "obj-75": [ "Mesh Color", "Mesh Color", 0 ],
             "obj-76": [ "Full-Screen Anti-Aliasing", "FSAA", 0 ],
             "obj-93": [ "Ortho. mode", "Ortho. mode", 0 ],
             "obj-96": [ "Lens angle", "Lens angle", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
+            "parameter_overrides": {
+                "obj-73::obj-100::obj-1": {
+                    "parameter_longname": "Line Width[1]"
+                },
+                "obj-73::obj-100::obj-79": {
+                    "parameter_longname": "Point Size[1]"
+                },
+                "obj-73::obj-64": {
+                    "parameter_longname": "Draw Mode[1]"
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0
