@@ -988,15 +988,14 @@
             },
             {
                 "box": {
-                    "annotation": "Achor x-coordinate.",
+                    "annotation": "Anchor x-coordinate.",
                     "annotation_name": "Anchor x",
                     "appearance": 4,
                     "id": "obj-59",
                     "maxclass": "live.numbox",
                     "numinlets": 1,
                     "numoutlets": 2,
-                    "outlettype": [ "", "float" ],
-                    "parameter_enable": 1,
+                    "outlettype": [ "", "float" ],                    "parameter_enable": 1,
                     "patching_rect": [ 250.0, 1110.0, 44.0, 15.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 170.0, 66.0, 35.0, 15.0 ],
@@ -1017,7 +1016,7 @@
             },
             {
                 "box": {
-                    "annotation": "Achor z-coordinate.",
+                    "annotation": "Anchor z-coordinate.",
                     "annotation_name": "Anchor z",
                     "appearance": 4,
                     "id": "obj-60",
@@ -1059,7 +1058,7 @@
             },
             {
                 "box": {
-                    "annotation": "Achor y-coordinate.",
+                    "annotation": "Anchor y-coordinate.",
                     "annotation_name": "Anchor y",
                     "appearance": 4,
                     "id": "obj-63",
